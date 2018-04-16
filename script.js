@@ -53,3 +53,4 @@
         jQuery( this ).closest('.select-main').find('ul').siblings('.selected-item').html(countSelected + ' item selected');
     }
     jQuery(document).on('input click change','input.wp-travel-multi-inner', updateTable)
+
